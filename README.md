@@ -1,3 +1,6 @@
+#before building to create .env file based on .env_sample
+cp .env_sample .env
+
 #build
 docker-compose up --build
 
